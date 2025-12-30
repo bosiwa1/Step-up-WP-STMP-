@@ -1,0 +1,78 @@
+Perfect! Here’s a step-by-step guide to fully manage info@dlbwebservice.com inside your Gmail account, so you can both receive and send emails as if it were a Gmail account.
+
+Step 1: Make sure Gmail can fetch your emails (POP3)
+
+Log in to your Gmail account (your main Gmail).
+
+Go to Settings → See all settings → Accounts and Import → Check mail from other accounts → Add a mail account.
+
+Enter info@dlbwebservice.com and click Next.
+
+Choose Import emails from my other account (POP3) and click Next.
+
+Fill in the POP settings:
+
+Username: info@dlbwebservice.com
+
+Password: your email password
+
+POP server: mail.dlbwebservice.com
+
+Port: 110 (or 995 if SSL)
+
+Check “Leave a copy of retrieved messages on the server” ✅
+
+Check “Label incoming messages” and assign a label like info@dlbwebservice.com ✅
+
+Click Add Account.
+
+✅ Gmail will now fetch incoming emails from info@dlbwebservice.com and organize them under the label you selected.
+
+Step 2: Set up Gmail to send as info@dlbwebservice.com (SMTP)
+
+Still in Settings → Accounts and Import → Send mail as → Add another email address.
+
+Enter your name and info@dlbwebservice.com as the email.
+
+Uncheck “Treat as an alias” if you want replies to go directly to this email.
+
+Click Next Step.
+
+Enter the SMTP settings:
+
+SMTP Server: mail.dlbwebservice.com
+
+Port: 587 (or 465 if SSL)
+
+Username: info@dlbwebservice.com
+
+Password: your email password
+
+Use TLS or SSL depending on your server settings
+
+Click Add Account. Gmail will send a verification email to your info@dlbwebservice.com inbox.
+
+Open Roundcube or your webmail, get the verification code, and enter it in Gmail.
+
+✅ Now you can send emails from Gmail as info@dlbwebservice.com.
+
+Step 3: Organize your emails
+
+Gmail will apply the label you selected in Step 1, so all emails from info@dlbwebservice.com are easy to find.
+
+You can also create filters, archive, or apply additional labels.
+
+Step 4: Optional – Make it seamless
+
+You can set this account as default when sending new emails from Gmail:
+Settings → Accounts and Import → Send mail as → Make default.
+
+Use Gmail mobile apps to access all your emails in one place.
+
+✅ Result:
+
+You can read and reply to info@dlbwebservice.com emails entirely in Gmail.
+
+Emails are stored both in Gmail and (optionally) on the original server.
+
+You don’t need a Google account for info@dlbwebservice.com to manage it in Gmail.
