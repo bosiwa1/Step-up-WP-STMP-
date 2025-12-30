@@ -1,0 +1,127 @@
+✅ AFTER CREATING AN EMAIL IN cPANEL
+(Email Routing – VERY IMPORTANT)
+🔹 STEP 1 — Go to Email Routing
+
+In cPanel:
+
+Email → Email Routing
+
+
+Select your domain:
+
+dlbwebservice.com
+
+🔹 STEP 2 — Choose the CORRECT Option
+
+You will see 4 options:
+
+Local Mail Exchanger
+
+Remote Mail Exchanger
+
+Backup Mail Exchanger
+
+Automatically Detect Configuration
+
+✅ Correct choice for cPanel email:
+✅ Local Mail Exchanger
+
+
+📌 Why?
+
+Your mailbox exists on this server
+
+Mail must be delivered locally to cPanel
+
+🔹 STEP 3 — Save
+
+Click:
+
+Change
+
+
+You should see:
+
+Success: The email routing configuration has been updated.
+
+🔹 STEP 4 — MX Record MUST Match
+
+Your MX record should be:
+
+Host: @
+Priority: 0
+Destination: mail.dlbwebservice.com
+
+
+✔ You already have this — GOOD
+
+🔹 STEP 5 — Verify Mail Server Hostname
+
+In cPanel:
+
+Server Information → Server Hostname
+
+
+It should look like:
+
+mail.dlbwebservice.com
+
+
+or
+
+server.yourhost.com
+
+
+✔ Either is OK as long as MX points to mail.dlbwebservice.com
+
+🚫 COMMON MISTAKES (AVOID THESE)
+
+❌ Selecting Remote Mail Exchanger
+→ Email will NEVER arrive in cPanel inbox
+
+❌ Leaving old Titan / Google MX records
+→ Mail goes to wrong provider
+
+❌ Multiple MX records from different providers
+→ Random delivery failures
+
+🧪 FINAL TESTS (DO THESE)
+1️⃣ External → cPanel inbox
+
+Send from Gmail:
+
+test@gmail.com → info@dlbwebservice.com
+
+
+✔ Must arrive
+
+2️⃣ cPanel → External
+
+Send from Webmail:
+
+info@dlbwebservice.com → your Gmail
+
+
+✔ Must arrive
+
+3️⃣ Website Form Test
+
+Submit your contact form
+
+✔ Must arrive in info@dlbwebservice.com
+
+🟢 QUICK CHECK SUMMARY
+Item	Status
+MX → mail.dlbwebservice.com	✅
+Email Routing → Local	✅
+SPF / DKIM / DMARC	✅
+WP Mail SMTP	✅
+
+If you want, next I can:
+
+Double-check Email Routing screenshot
+
+Verify reverse DNS
+
+Fine-tune spam protection
+
